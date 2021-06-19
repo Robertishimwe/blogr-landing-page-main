@@ -1,11 +1,23 @@
-@media screen and (max-width: 1440px) {
-   
+
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+@media all and (max-width: 1440px) {
+
+* { 
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400, 500, 700;
+
+    }
 
 
 .headerh {
     display: flex;
     height: 550px;
     background-image: url("./bg-pattern-intro.svg");
+    
     background: linear-gradient(to right, #ff8f70, #ff3d54);
     border-bottom-left-radius: 90px;
     flex: 1 1 2em;
@@ -102,16 +114,19 @@ a {
 
 h1 {
     color: hsl(0, 0%, 100%);
-    font-family: 'Ubuntu';
-    font-weight: 600;
+    font-family:'Overpass', sans-serif;
+    font-weight: 300, 600;
     font-size: 63px;
     margin-bottom: 0px;
 }
 
 .Grow {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400, 500, 700;
      text-align: center;
     color: hsl(0, 0%, 100%);
     margin-top: 0px;
+    opacity: .6;
 }
 .btn {
     position:absolute;
@@ -185,6 +200,7 @@ ul li {
     height: 40px;
     text-align: center;
     line-height: 20px;
+    cursor: pointer;
    
     
 }
@@ -199,6 +215,7 @@ ul li a{
 
 }
 ul li ul li:hover {
+    
     font-size: 17px;
 }
 ul li ul li {
